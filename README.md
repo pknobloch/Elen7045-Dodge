@@ -16,3 +16,7 @@ appears at the top of the screen.
 
 The objective of the game is to move the player so that he or she does not get wet, that is, the
 player must dodge the raindrops. If a raindrop touches the player then the game is over.
+
+-------
+Course site: http://joshilewis.github.io/ELEN7045/
+Dodge brief: http://joshilewis.github.io/ELEN7045/elen7045-first-assignment.pdf
