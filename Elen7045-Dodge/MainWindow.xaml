@@ -1,0 +1,29 @@
+﻿<Window x:Class="Elen7045_Dodge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Elen7045_Dodge"
+        mc:Ignorable="d"
+        Title="Dodge" Height="350" Width="525">
+    <Grid >
+        <Grid Name="GridMain" >
+
+        </Grid>
+        <Border Name="StartPanel" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="1" Padding="10" CornerRadius="5" >
+            <Border.BorderBrush>
+                <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FFC5C5C5" Offset="0"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <StackPanel >
+                <Label x:Name="GameOverLabel" HorizontalAlignment="Center" FontWeight="Bold" Visibility="Collapsed">I'm melting! What a world!</Label>
+                <Label HorizontalAlignment="Center">Avoid the raindrops. Use Left and Right to move.</Label>
+                <Button x:Name="ButtonStart" Content="Start" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="75" 
+                        Click="ButtonStart_Click" IsDefault="True" Margin="0,10,0,0" />
+            </StackPanel>
+        </Border>
+    </Grid>
+
+</Window>
