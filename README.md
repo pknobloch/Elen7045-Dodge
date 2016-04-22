@@ -18,5 +18,5 @@ The objective of the game is to move the player so that he or she does not get w
 player must dodge the raindrops. If a raindrop touches the player then the game is over.
 
 -------
-Course site: http://joshilewis.github.io/ELEN7045/
+Course site: http://joshilewis.github.io/ELEN7045/ <br/>
 Dodge brief: http://joshilewis.github.io/ELEN7045/elen7045-first-assignment.pdf
